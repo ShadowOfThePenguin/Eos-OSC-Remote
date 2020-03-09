@@ -1,0 +1,22 @@
+{
+  "name": "eosremote",
+  "version": "1.0.0",
+  "description": "Remote for ETC Eos",
+  "main": "index.js",
+  "scripts": {
+    "sass:compile": "node-sass public/css/INPUT_FILE.scss public/css/styles.css"
+  },
+  "author": "Zachary Lambson",
+  "license": "ISC",
+  "dependencies": {
+    "express-device": "^0.4.2",
+    "hammerjs": "^2.0.8",
+    "interactjs": "^1.8.2",
+    "osc": "^2.3.1",
+    "snapsvg": "^0.5.1",
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

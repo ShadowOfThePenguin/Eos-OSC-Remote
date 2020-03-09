@@ -1,0 +1,28 @@
+.unselectable {
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+};
+
+  #Controls:hover {
+    fill: hotpink;
+  }
+
+  .cls-2:hover {
+    fill: hotpink;
+    stroke-width: 1;
+  }
+
+  .cls-2:active {
+    fill: hotpink;
+    stroke-width: 0.5;
+
+  }
+
+  #Labels{
+    pointer-events: none;
+  }
